@@ -1,0 +1,21 @@
+---
+title: "Scale and mass effect"
+summary: "The world behaves very differently on different scales. We develop different models which work well at different scales, but lose any predictive power"
+date: "2015-05-02"
+---
+
+The world behaves very differently on different scales.  We develop different models which work well at different scales, but lose any predictive power at other scales.
+
+Often, in our models, multiple lower-level effects are combined together and treated as a vaguely defined correction parameter.  This can end up being relatively precise, but the result is somewhat disjointed.
+
+A good example is friction.  Depending on the context, friction can result from texture, or from things like van der Waals forces.   Air resistance is another one.  In chemistry, reaction rate equations use a rate constant.  For the purposes they are used for, they work fine.  But they start to break down.  And when multiple effects are lumped into a constant, they break down differently at different points.
+
+For a reaction rate equation, the viscosity of a fluid can be abstracted into the rate constant.  So you end up with an equation depending on this constant, and the concentrations of the chemicals that are reacting.  A reaction equation tends assumes that the solutions are mixed well.  Of course it is impossible to have 100% mixing constantly throughout the reaction.  The degree of mixing will have non-linear effects.  If there is a higher concentration of reactants in one area, the reaction will occur more quickly there and more slowly elsewhere.  If you imagine a very long pool with a high concentration of reactants on one side, and a low concentration on the other, it will speed up the reaction.  If you imagine a high concentration of one reactant on one side, and a high concentration of the other at the other side, it will slow the reaction down.
+
+If the solvent is very viscous, this will also affect the rate of reaction.  But another key is that these factors can influence each other in non-linear ways.  The effects of mixing and viscosity will amplify each other in some instances.  They could cancel each other out in others.  If you want a very precise model of the rate of reaction, you're going to need to split the rate of reaction parameter out into multiple parameters that could be dependent on time, temperature, etc. themselves, rather than just static constants.
+
+So you add more terms to the equation to make it more precise--filtering out noise, or "zooming in", but it complicates the math tremendously.  Suddenly, you can have a multiple-order, multi-dimensional differential equation that can only be approximated with numerical methods, rather than a pretty simple 1st-order one.  It's very impractical to use unless you really need the extra precision.
+
+But why is zooming in necessary sometimes, but not other times?  In a chemistry lab, you are working at the human scale.  The volumes and masses of solvents and reactants that you are using are generally within a few orders of magnitude of each other.  A bug chemist doing these same experiments with proportionally smaller quantities of reactants and solvents would not be able to just scale down their reaction rate parameter accordingly.  Suddenly viscosity would have a larger impact on the rate of reaction.  Mixing might matter less, since the volumes would allow the solvents to mix more quickly, proportionately.  But these effects would not necessarily be linearly scaled.  If a bacterium chemist were doing the same experiments at yet smaller volumes and masses, they might have bifurcations where the "dominant effect" is no longer concentrations, and our standard rate reaction equation becomes totally irrelevant.  The bacterium chemists might come up with a law that depends on the distance to the nearest reactant, because for low enough concentrations, they might not be able to treat the reactants as a generalized mass.
+
+This happens more obviously in economics.  We use market effects to determine zoomed-out effects, but when we zoom in, we have to use behavioral models.  In physics, it happens with the bifurcation between quantum and classical mechanics.  They both have their realms where they have descriptive power, but neither translates well to the other realm's "turf."

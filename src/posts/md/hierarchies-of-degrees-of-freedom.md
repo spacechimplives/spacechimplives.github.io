@@ -1,0 +1,10 @@
+---
+title: "Hierarchies of degrees of freedom"
+summary: "A quick clarification: because I'm saying that any generalizable state is a degree of freedom, or a state that could potentially be occupied, an easy "
+date: "2017-02-05"
+draft: true
+---
+
+A quick clarification: because I'm saying that any generalizable state is a degree of freedom, or a state that could potentially be occupied, an easy thing to do is say "well if being poor is a state, and being rich is a state, then wouldn't the equilibrium be everyone being rich and everyone being poor?"  It all depends on how you're measuring the state.  The name means nothing.  You may as well call the state of being rich D239834 and the state of being poor D234849.  Then, whatever system you are using to measure that state will define the state.  If you're using US census income data to determine who is rich, but world bank data to determine who is poor, then they are different dimensions, but if you use US census income data to define both, then they lie on the same axis.   The axis it totally inextricable from the process of measuring and communicating that state.
+
+The effect that a change of position in one degree of freedom will have on another depends on this cause/effect hierarchy.  A hierarchically superior dimension (# of trees) is dependent on an inferior one (# of elms).  If you cut down a random elm, there will be fewer trees in the forest, but if you cut down a random tree, there may or may not be fewer elms.  However, the number of trees and the number of elms both share a lot of common causes, such as nutrients in the soil, sunlight, etc.  Trees and elms don't actually exist.  Parts of the universe exist that we give those names to.  The systems we use to observe trees and elms are what cause them to be similar.  When we go about defining what a "tree" is, we might say "it's a kind of plant with a big woody trunk."  Then we have to define plant, and big, and woody, and as we keep going, we are essentially defining a set of states along different degrees of freedom that makes something a tree to us in that instance.

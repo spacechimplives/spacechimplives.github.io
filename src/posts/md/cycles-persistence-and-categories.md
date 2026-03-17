@@ -1,0 +1,27 @@
+---
+title: "Cycles Persistence And Categories"
+date: "2025-09-02"
+draft: false
+---
+
+Previously I described in an overview how dependency graphs can model computations, mechanisms, and even intelligence. The conclusion was that cycles in a dependency graph are associated with persistence. They actually provide significantly more than that as well.
+
+Cycles are also necessary for Turing completeness. Without cycles, we are limited to halting programs which yield finite sets. With cycles, we are able to represent inductive data structures and infinite loops. We are also able to represent types that include uncountable sets which allows us to do things like define functions on real numbers etc. which can lead us to category theoretic representations of computation, physics.
+
+So let’s describe the mechanics of energy and information in a cyclical dependency graph.
+
+Off the bat, we can recognize that a truly fully cyclic mechanism is not physically possible. It’s only mathematically possible in the limit because there is no such thing as a 100% efficient mechanism. In practice an indefinitely cyclical mechanism must involve an influx of energy from external systems. That means that a dependency graph which accounts for all causal dependencies will need to include energy from sources outside the system.
+
+As such the concept of a cycle is inherently an abstraction. A concrete partially cyclic mechanism is possible, however. We can route energy from the output back into the mechanism via some input. This will work a finite number of times. This likely gives rise to the “morphodynamic” behavior we see in complex physical phenomena. Mapping this back to the mathematical domain, this corresponds to hereditarily finite structures.
+
+This helps us understand the form that the “physical abstraction” takes place. The physical transformations undergone by the mechanism are something like functions. It has an “input state” of whatever trigger sets off the dominoes, and an “output state” of the result state when the last domino falls. From the outside perspective we could ignore the internal domino collisions if they aren’t affecting other parts of our mechanism.
+
+In order for a mechanism to be run repeatedly, the state must be “reset”. Despite a translation in the time dimension, we see many properties of the mechanism preserved. If we accept energy from outside the system, we can reset all the dominoes. In our brains, we have a sodium/potassium gradient across our neural cell membranes which gets reset. Computers similarly use power to reset the voltage in their transistors. After resetting, when the dominoes start to fall again, we have something like another iteration of a function. From the internal view of the domino system, we’ve added a physical abstraction. We don’t care where the energy came from. All we care is that the dominoes are reset. We are essentially black-boxing part of the causal dependency graph of the system.
+
+In symbolic terms, this black-boxing energy from another system is equivalent to allowing composition of graphs, or the creation of circuits. We can “wire up” different pieces of the program and feed outputs from one part into any other part that will accept it. If we did’t need cycles, we could avoid any variable names. We could content-address each sub-tree of the program. But for these wires, it seems we may need arbitrarily referenced channels. This is interesting from a semiotic perspective as it introduces “symbolic” signs—considered to be the foundation of human intelligence.
+
+This abstraction removes a degree of freedom—time—from the specification of the system’s state, and replaces it with phase. In other words, it’s mapping one set of states onto a smaller set of states. Physically the channel allows different upstream causal dependency trees to be channeled into downstream dependency trees which we are treating as congruent… or whose states we are considering as having some congruence mapping to one another. This is ultimately equivalent to constraint of the system, which we described as the introduction of potential energy to the system. This should manifest as effective inertia.
+
+At first glance this may appear to be a trick. The energy of the system surely shouldn’t increase just because of an abstraction, or because we view something differently. It doesn’t. If the cycle weren’t really there and we just pretended there were a cycle, we’d have a system full of noise. The frequency domain would show no signal. What the abstraction does is reveal a real constraint: a set of states that are not independent, but phase-locked. That constraint is what we recognize as potential energy in the mechanism, the stored capacity to repeat its behavior.
+
+As mentioned previously latch memory is a perfect manifestation of all this. It is literally a cyclical dependency graph which can cause the persistence of potential energy by “trapping” a higher voltage. This persistence allows computations with boolean circuits which would otherwise not be able to express a certain level of complexity to express a much wider range of structures, including persisting memory over multiple iterations of the same process.

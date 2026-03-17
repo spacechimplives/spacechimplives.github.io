@@ -1,0 +1,35 @@
+---
+title: "How Institutions Learned To Talk"
+date: "2025-06-27"
+draft: false
+---
+
+If there is one insight you can take from the field of cognitive linguistics it is that language is fundamentally built on metaphor. Even the most literal-seeming speech has underlying metaphors, extending down to basic grammatical elements. And it doesn’t stop at language. It influences the way we think as well. In “the origin of consciousness in the breakdown of the bicameral mind”, Jaynes reaches a similar conclusion and goes further to suggest that metaphor is the origin of consciousness itself.
+
+This will seem unbelievable to some. How could a metaphor provide the basis of self awareness? Metaphor is seemingly a flimsy mental process. There must be something more inherent and unique to us to explain what separates us from animals. And in a way there is.
+
+Here’s a quick overview of an account of how this model is plausible.
+
+A) Animals developed a “behavioral dependency graph”, providing a sort of proto-sentience. The dependency graph is quite clear in the arrangement of neurons. It provides a mapping from sensation to action, and that mapping [forms the basis of sentience](https://spacechimplives.substack.com/p/a-model-for-computing-goals-as-signals). In vertebrates, these graphs slowly became reconfigurable, and in mammals they became richly reconfigurable “on the fly” via the cortex.
+
+B) That dependency graph consists of sets of conditions that accept stimuli and then trigger downstream “actions.” Those actions can either be to set internal state, which arranges sets of conditions within the organism for downstream neurons or signal processors to react to. Or the actions can set external state—the environment. This ultimately modifies the stimulus received through sensory channels. So the dependency graph forms a mapping from environmental stimuli to motor and cognitive behaviors. [The free energy principle provides a full account of this as well as a mathematical model](https://en.wikipedia.org/wiki/Free_energy_principle).
+
+C) Animals began to form “proto-institutions” in which individuals either gather information from, or invoke behaviors in other individuals. [In this way they began to form coherent units which together map collective sensation to collective action](https://spacechimplives.substack.com/p/institutions-as-emergent-computational). That “institutional” coordination piggybacked on the existing animal causal dependency graph, and networked them into a larger graph.
+
+D) Primates began to consistently and richly form proto-institutions and began to form patterns of organization in which individuals’ roles were more dynamic and configurable. [These proto-institutions began to develop a proto-sentience “supervenient” on primate sentience.](https://spacechimplives.substack.com/p/institutions-as-forms-of-life) By that I mean that: without institutions, primates have their metabolic needs. Institutions require more activity than these primates would otherwise engage in. That means they need to provide energy in order to incentivize that. This means they need their own metabolism which allows them to incentivize agents to identify and harvest energy on the institution’s behalf beyond what the primate would for their own purposes, and distribute it among members to engage in other activities on its behalf.
+
+E) [In humans, those proto-institutions became richly reconfigurable “on the fly”](https://spacechimplives.substack.com/p/institutional-code-and-human-behavior) so that the networked causal dependency graph could be rearranged in response to changing environmental circumstances, not just by manipulating the internal graphs of humans, but also by manipulating the arrangement of the network of graphs into the larger graph.
+
+F) [Language developed as a protocol to query these causal dependency graphs, not just within the individual, but also by rearranging the roles of individuals](https://spacechimplives.substack.com/p/distributed-computation-metaphor). Thus it arranges the collective sensation and behavior of “institutions”.
+
+G) Language is learned by bootstrapping representations on top of some fundamental metaphors. A metaphor implies a tranfer from a source domain to a target domain, [as explored by ideas such as conceptual blending theory](https://en.wikipedia.org/wiki/Conceptual_blending). It provides a map from tokens in a source domain to tokens in a target domain.
+
+H) The dependency graphs can be modeled as morphisms between sensation and the environment as well as morphisms. Language can be modeled as morphisms between those dependency graphs. Since language consists of metaphors of metaphors, as explored by ideas such as conceptual blending theory, this means that it can be modeled as morphisms of morphisms, and so it should be informed by work from category theory.
+
+I) [LLM’s implicitly recreate that collective networked dependency graph and allow one to query it](https://spacechimplives.substack.com/p/llms-and-human-language-as-a-distributed), which is why they’re so effective. This can be done in other ways than neural net transformers with similar effect. I think there could a promising approach, perhaps [such as this one](https://spacechimplives.substack.com/p/computing-with-geometry), which encodes those graphs more directly.
+
+J) Language allows us to reconfigure our causal dependency graphs to create a detailed explicit representation of ourselves which we can map various sensations to and can become a part of our decision-making process. Shades of this can exist in pre-linguistic proto-institutions but it is richer and more dynamically configurable in humans. Thus consciousness is born in the ability to not just represent ourselves and our behaviors, but also exert fine-grained control over those behaviors.
+
+Keep in mind that other dynamics could easily be playing out alongside these which influence behavior. The internal dependency graphs are a rich internal world which is only able to be shared in an abstracted form. The internal graph itself also likely does not encompass the entire model of our behavior. There are other drivers. [There is room for the idea that deeper dynamics ultimately play a role in our decisionmaking, both individual and collective](https://spacechimplives.substack.com/p/forms-of-collective-consciousness). However the neural signalling layer is undeniably the dominant, most obvious factor, and at the least provides a guideline for the actual behavior to vary upon. And that abstracted form which is shared with us burrows its way deep into psyche.
+
+Each of these steps are more like giant leaps, but together they paint a coherent picture that is true to the evidence we’ve gathered about human and animal cognition and communication. The work of justifying each of the leaps and providing supporting is long and detailed. Please comment if there’s anything specific you’d like to see more fleshed out.

@@ -1,0 +1,31 @@
+---
+title: "Notes On Iq"
+date: "2024-11-09"
+draft: false
+---
+
+Current evidence of IQ does not indicate that its variation is mostly genetic.
+
+This is not the consensus in the field because of PC culture. It’s because the field recognized wildly incorrect assumptions made in the studies that had previously been ignored. The environment was such that people were ready to move on from behaviorism. They also were facing the failure of Chomsky’s idea of universal grammar so the move was not that painful.
+
+This meant that the reasons for moving on from the Bell Curve ideas was not drilled into the heads of those in the field. When the ideas popped back up recently due to social media, many people who only loosely followed the field weren’t in a position to provide counter-arguments, because a generation had only been exposed to the field after moving on from those ideas. Long story short, people forgot why the ideas are wrong.
+
+The majority of studies cited as evidence of the genetic nature of intelligence use “heritability” as synonymous with “genetic contribution to variance”. They use ideas like this [ACE model of intelligence](https://en.wikipedia.org/wiki/ACE_model) which “[relies on several assumptions, including the absence of assortative mating, that there is no genetic dominance or epistasis, that all genetic effects are additive, and the absence of gene-environment interactions](https://en.wikipedia.org/wiki/ACE_model#:~:text=The%20basic%20ACE%20model%20relies,absence%20of%20gene%2Denvironment%20interactions.)”
+
+None of those assumptions are valid. The one I will focus on specifically is the absence of gene x environmental interactions. I will then also discuss the difficulty of teasing out neonatal / early childhood effects.
+
+First, let’s just get right to the evidence. In [this paper on schizophrenia](https://www.nature.com/articles/s41537-022-00257-5), heritability with gene x environment effects accounted for drops from 79% to 46%. We should assume at least a similar drop from IQ heritability estimates. That automatically takes the highest heritability estimates down to 50%. The more middle-of-the-road estimates of ~60% then should also drop proportionally to ~35% . So there should be no question that the hard cap of genetic contribution should be 50% \*maximum\*, based simply on correcting a single invalid assumption and using other studies to assess how much to correct for that assumptions. Anyone telling you differently doesn’t understand what they’re saying, or is deliberately twisting the story.
+
+To illustrate, let’s take 2 examples of gene x environment interactions. First, let’s imagine a society that finds people with big noses to be ugly. Let’s guess that being ugly leads to depression. In studies of depression that don’t account for gene x environment interactions, the variation due to that gene for big noses will be accounted for as a genetic factor of depression. Now is that the kind of genetic contribution you’re thinking of when you hear that depression is X% heritable? No. This is designed to deceive.
+
+Second, let’s imagine a gene that metabolizes a certain nutrient and uses it to build a more effective myelin sheath. So in other words, we’ve tied it to a direct neural mechanism. Now in a society where that nutrient is readily available, the impact we’ll observe from this dynamic is genetic. The population with the gene will have a factor that increases their brain efficiency and thus their IQ will tend to be higher. However in a society with unequal access to this nutrient, the observed impact will be environmental. We’ll see that populations with access to the nutrient have higher IQs on average, because they include those people who are getting the boost from that gene.
+
+Now let’s reverse it and instead of a nutrient that provides a boosting factor, let imagine a sensitivity to something that provides a detracting factor. Same deal. In a population where some people are more sensitive to microplastics than others and everyone is getting exposed to that threshold number of microplastics, the impact on IQ will appear in our heritability number to be a genetic impact.
+
+Moving on, there’s also the assumption in most of these twin studies and seemingly even in current academic studies that there is negligible neo-natal or early childhood impact on IQ.
+
+In reality, this is exactly when children are forming their most basic concepts and carving out the pathways for them. If one child forms a concept of “up” and “down” in a way that provides cognitive friction, that will slow them down in the future. If a child learns to process language or math in a certain way that gives them a boost, this will affect their IQ forever. There could easily be cultural impacts to this. Cultures that encourage spending more time with their children, or whose socioeconomic situation makes that more feasible, could pass down the most efficient ways of processing these concepts.. They could pass it down through gestures, stories, colloquial vocabulary, etc. Not to mention they could pass it through family wealth giving them access to more educational toys and opportunities, as well as having the time to research those toys.
+
+Twin studies don’t account for these impacts at all. They assume that there are no environmental impacts below a certain age that have an impact on IQ. This is reflected in the method. The twins are often not separated at birth, but spend the first year or two with their birth parents.
+
+Whether or not you believe this could be a significant factor, it is an open question. It has not been investigated, and the heritability numbers that are thrown around to suggest that intelligence is largely genetic conflate any of those impacts with genetics. I personally believe it could be at least as big of a factor as genetics, and that’s due to studying cognitive linguistics, as well as theories of consciousness like Julian Jaynes’ bicameral mind hypothesis (which is not PC at all).

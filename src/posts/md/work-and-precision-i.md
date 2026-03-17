@@ -1,0 +1,28 @@
+---
+title: "Work and Precision I"
+summary: "In chapter 9 of Alicia Juarrero's book \"Dynamics in Action\", the author describes the idea of \"constraints as causes.\" She discusses these dynamics pr"
+date: "2018-04-09"
+draft: true
+---
+
+In chapter 9 of Alicia Juarrero's book "Dynamics in Action", the author describes the idea of "constraints as causes." She discusses these dynamics primarily from a thermodynamic point of view. In her discussion of the relationship between these contraints and neural networks, there are echos of the idea of [ICP's](http://spacechimplifecom.local/2018/03/04/explanation-of-icps-internal-control-parameters/) from Representation and Behavior by Fred Keijzer. It seems to me that the work done to set these ICP's should be ruled by the laws of thermodynamics, as should the work of the behavior that results from them.
+
+However all discussion of these things that I have come across has been in relatively general terms and has not guessed at a model that would indicate information's effect on individual particles. The goal is to find a model which relates information to the laws of thermodynamics in a way that allows us to pull out useful corollaries that can then be tested and apply to macroscopic systems in a more specific way.
+
+One particular hurdle I have found is that there is not really a way to discuss intentional action to my knowledge in physics. In information theory on the other hand, intention is kind of taken as a given. The conceptions of entropy kind of highlight this. In information theory, entropy is a measure of the amount of information that can be communicated by comparing actual values to expected values and assuming the actual values have some meaning. In physics, it is often described as a measure of "randomness" but perhaps a better way to describe it is as a measure of how many degrees of freedom we are ignoring. We ignore those degrees of freedom because they cancel out, and we assume they are insignificant to what we are trying to find out.
+
+In classical physics, the application of a force can be intentional, but whether it is or not doesn't matter at all to the end result. In information theory, we want to determine the degree to which the outcome matches the intention. This requires a comparison between the intended message and the received message. In information theory, this mechanism of comparison is a given and it is ignored.
+
+However if setting our ICP's and reading from them are subject to thermodynamic constraints, then we need to understand the physics of that mechanism of comparison, or observation. Rather than try to tackle that entire model at once, I'm going to try to simplify the problem and follow intuitions and see where they lead until something sticks.
+
+![](http://spacechimplifecom.local/wp-content/uploads/2018/03/phys10000-7.gif)
+
+First I'm going to try to represent the energy required to move a particle from one point at rest to another at rest as the minimum possible energy plus some term representing the mean square displacement from that optimal trajectory.
+
+In determining the most efficient force function we are trying to account for all energy put into the particle.  This means that if the particle loses velocity, we count that as energy put into the system, because it takes force to slow down an object.  Given and x-y graph where the x coordinate is time and the y coordinate is velocity, if the graph has any minima, this indicates that the particle slowed down and then sped back up.  This will always be less energy efficient than if the particle never slowed down and merely sped up or maintained speed, as both the speeding up and and slowing down take energy.  Any change in velocity takes energy.  So our functions will be limited to those with no minima within the trajectory.  We are constrained to 1 dimension, but even if we weren't, any deviation from a straight line would inherently be inefficient unless there were some obstacle in the way or an external force acting on the particle.  But we are currently counting all forces as part of the total energy so that case is irrelevant, and we are ignoring obstacles.
+
+We are not looking for the total kinetic energy of the particle at a given time, but the change $$dE(t)$$.  This is $$ dE(t) = \frac{ (F(t)(dt))^2 }{2m}$$ or in other words the proportion of kinetic energy that was added to or removed from the particle in a given dt.  The total energy added or removed then should be $$ E_tot(t) = \frac{ \int{F(t)^2 dt}}{2m}$$.  We can then subtract from that a term for the minimum energy necessary to get there.  If the particle requires time T to get to that other point S meters away, then the average velocity will be $$\frac{S}{T}$$ so the minimum energy required to reach that point from the starting point would be $$\frac{mS^2}{2T^2}$$.
+
+There is some velocity curve that minimizes the total energy that will allow the particle to reach the desired point at time t with optimally low energy.  According to my queries on math forums, these can be calculated using Hermite polynomials, which happen to give rise to eigenstates of the quantum harmonic oscillator.  Whatever the function is, we can take the mean square displacement of the force vector from that force curve to give 2 terms--1 indicating the energy spent along the intended trajectory, and 1 indicating what is essentially waste.
+
+So we can view these 2 quantities--the most efficient versus the "waste" enegry as intentional energy and unintentional energy.  These quantities should be able to correlate through some model to the information and the entropy of the system.  But there is still a lot of ground work to lay before it is clear.

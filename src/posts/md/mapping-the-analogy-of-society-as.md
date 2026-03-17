@@ -1,0 +1,23 @@
+---
+title: "Mapping The Analogy Of Society As"
+date: "2025-01-04"
+draft: false
+---
+
+Many people have philosophized about the relationship between society and life. In fact, the idea that we’re the “cells” of society has been used to justify a lot of bad or downright evil policies.
+
+It has also led to static thinking. Once developed, cells serve a single purpose and generally continue serving that purpose until the body dies. That’s not how humans work, and I think focusing on that as the metaphor has let to the field stagnating.
+
+But the fact is society follows a similar thermodynamic pattern to life, and not just in the sense that it’s the sum of agents who follow those patterns. In "Energy and the Evolution of Life" by Ronald Fox, describes an the energetic “ourobouros” whereby energy is required to cause certain reactions, which in turn create processes to acquire more energy from the environment to cause more of those reactions.
+
+In life, work is done on via the compositional units of life (atoms), which constrains their behavior (e.g. binds them in a molecule for a time, ionizes them, etc.), in turn causing them to constrain external units (e.g. preventing the diffusion of molecules being digested to outside the cell, photons during photosynthesis, amoebas trapping other organisms, etc.), allowing them to acquire energy from the environment. Given the work that's put into constraining those external units, a certain amount of energy is then collectively acquired as potential energy through releasing the potential energy from that external source (e.g. storing energy via kreb’s cycle). That released potential energy can then in turn be used to do work on internal units, which will then do work on external units, which will then release their potential energy into the system again.
+
+In terms of society, that means work is done on each of the compositional units of society (people), which constrains their behavior (e.g. binds them with a contract or other incentive to carry out a certain task). Those internal units then constrain external units (e.g. throwing a spear to kill a buffalo, constraining a plant to grow in a certain place, etc.) via processes which acquire energy from the environment. Energy is collected from that work and stored as potential energy for redistribution, and then distributed as food or money, to harness more work from people, who can then continue the cycle.
+
+Another critical piece of this is information. Both life and society accumulate information. We know cells create genes, and societies clearly create data. But what exactly is this information? According to this, the information takes the form of processes which ultimately acquire more energy from the environment, effectively or no. The success with which those processes acquire energy from the environment and accumulate it into the entity’s internal system via [mutual constraint / internal energy](https://spacechimplives.substack.com/p/mutual-constraint-as-internal-energy) is a reflection of an interaction between the environment and the entity.
+
+That interplay between the environment and entity is reminiscent of von Uexkull’s “umwelt” as well as the Friston’s Free Energy Principle. This can give us a foothold to analyze the acquisition of energy from the environment as a communication. The processes which are described by the information of the entity require some energy to enact, but result in the increase of total energy of the entity. The ratio of energy required to energy attained might be considered a measure of the quality of this kind of information. So a process can be judged based on how efficiently it extracts energy from the environment, and this would also be directly related to how accurately it describes reality, as the process / information ultimately exists to serve that purpose.
+
+In Friston’s Free Energy Principle, there are internal variables and external variables representing the internal and external states. Those internal variables represent a sort of shannon “alphabet” or encoding scheme. That encoding scheme may or may not be appropriate for the environment that it’s in. It could require a lot of data to encode common messages, and there could also be noisiness to the channel, which is related to the efficiency of the physical mechanism carrying out the process.
+
+Exploring down this line, I think we can reveal critical details about the intimate relationship between mechanical / computational processes, thermodynamics, and information.

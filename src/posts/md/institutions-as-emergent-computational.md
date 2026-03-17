@@ -1,0 +1,29 @@
+---
+title: "Institutions As Emergent Computational"
+date: "2024-10-23"
+draft: false
+---
+
+Ronald Fox provides evidence in [Energy and the Evolution of Life](https://www.amazon.com/Energy-Evolution-Life-Ronald-Fox/dp/0716718499), that the primordial thermodynamic conditions of the earth (being a dissipative system), made the assembly of molecules into larger structures inevitable because free energy was increasing. He discusses the primordial ouroboros, where energy to catalyze those molecules could be provided by the molecules themselves.
+
+I posit that there is a similar ouroboros which has occurred within our collective behavior… a computational and energetic ouroboros which has provided the basis for a higher-order form of life. Institutions on some level are playing out a Conway’s game of life within our social dynamics. They incentivize us by providing us with enough energy to propagate them.
+
+A question that lingered for me from the discussion about [primordial institutions](https://spacechimplives.substack.com/p/institutional-code-and-human-behavior) was how these institutions were bootstrapped. I hypothesize that language, art, religion, math, science, and even consciousness to some extent arose from our organization into institutions. [I further hypothesize that these institutions are characterized by “machine language” or “algorithmic processes.”](https://spacechimplives.substack.com/p/societies-use-machine-language) What I mean by this is the suppression of “common sense,” or an agent’s local goals in service of carrying out a code, or the goals of the institution. This is a characteristic of law, policy, ritual, etc. I came across an article that could explain why that is while also giving insight into the conception of primordial institutions.
+
+In [this article](https://www.quantamagazine.org/the-new-math-of-how-large-scale-order-emerges-20240610/), it is described how the spontaneous organization from chaos, which is often observed in dissipative systems, arises via some sort of emergent computational processes. Terrence Deacon would probably call this a case of “morphodynamics”. [Here](https://arxiv.org/abs/2402.09090) is the paper the article is based on.
+
+Let’s start with a void. There’s nothing. Nothing can happen. We can call this void. Let’s now add mass to this void. Now rather than nothing, there’s something. We can call this unit. We can add energy from a source, and the uniform mass starts sloshing around. Now there are parts of the mass which are more excited than others. We might call these high points. Of course there then must be corresponding low points. Now we have a dual. Perhaps oscillations occur in one part of the material which resonate with opposite oscillations in another part of the material. When they collide, they disappear. Other oscillations form at twice the frequency. When they collide they don’t disappear, but they leave an oscillation at the original frequency. Suddenly we have complex computational dynamics that could be occurring in this system.
+
+Let’s take a look:
+
+At around 1:00, we can see a line spontaneously form between the rival monkeys. Each individual monkey is making its own decision. IMO, it would be absurd to think there’s some gene coding for these monkeys to form such a line. It occurs simply due to the dynamics of the situation. A distinction is drawn between one group and another. They are separated in space, and yet they push against each other. Why wouldn’t they just walk away from each other? Because they each have collective goals which require that they occupy an overlapping space. So there’s this push and pull between trying to occupy the space, and trying to avoid the conflict.
+
+Somehow, the result is that a simple mathematical object—a boundary—forms spontaneously between them. The boundary exists for a relatively long time compared to the quickness of the decisions of the individual monkeys, who mostly change their positions from second to second. It exists long enough to be exploited by humans to separate the groups and allow traffic through.
+
+This boundary is an emergent computation. To me, it’s not hard to imagine some configuration of many such computations overlapping resulting in a self-propagating system. Once you accept that a large enough group of agents can produce random computations, you can make the jump that those random computations could self-replicate. The below video provides some evidence for that leap as well.
+
+When this self-replicating configuration was reached, it caused an explosion. Suddenly we were working in concert like never before, building things, storing information via dance, ritual, oral history, paintings, etc. We developed a symbiotic relationship with the institutions. However, they are no longer fully dependent on us as hosts. It seems that they have gotten the upper hand in our symbiotic relationship. They impinge further and further on our ability to enjoy our time on earth.
+
+Into a more mystical direction: I believe our consciousness is actually due to the ability to see ourselves from the top down through these higher-order beings, which provide a mirror for us that allows consciousness. In order for institutions to reach consciousness, they must similarly be provided a mirror from above. In the meantime, we can only provide them with more information from the ground, and thereby give them a higher degree of sentience, which can in turn prevent them from shortsightedly destroying their hosts.
+
+It is fascinating to me to attempt to explore the properties of this self-replicating configuration, along with how it may have transitioned into more full-charactered cultures, societies, and civilizations. And I believe it’s critical to us to explore this in order to re-gain some control of our own destiny.

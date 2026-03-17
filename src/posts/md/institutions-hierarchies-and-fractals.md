@@ -1,0 +1,23 @@
+---
+title: "Institutions, Hierarchies and Fractals"
+summary: "I spend a lot of time thinking about the nature of society alone. This has led to some ideas that are somewhat divergent from those coming out of acad"
+date: "2014-06-02"
+---
+
+I spend a lot of time thinking about the nature of society alone.  This has led to some ideas that are somewhat divergent from those coming out of academia.  However, sometimes they converge in interesting ways.  After reading [this article](http://www.technologyreview.com/view/525696/how-virtual-gaming-worlds-are-revealing-the-nature-of-human-hierarchies/), along with several others, I decided to start writing down my thoughts.
+
+I have my own vocabulary for many things, I will not pretend to be expertly well-read in any one field, and I realize that many of the ideas that I have will have already been hashed out or refuted in one field or another, but I think a perspective of multiple fields is important, and not encouraged based on the current setup of academia and society in general.  The intention is dialogue.
+
+First, I should define "institution."  In my mind, this is any group of individuals, or group of groups of individuals (etc.), often with at least some unique communication symbols, that constrains the behavior of the individuals.  The most obvious examples would be corporations, nations, and religions, but some less obvious examples are families, the western free-market industrial complex, ant colonies, and packs of wolves.
+
+Many of these ideas blossomed after reading [Incomplete Nature](http://www.amazon.com/Incomplete-Nature-Mind-Emerged-Matter/dp/0393049914) by Terrence Deacon.  It has been criticized for alleged plagiarism, but that is immaterial to the ideas it proposes.  In this book, Deacon discusses the relationship between entropy and degrees of freedom, and describes in those concepts how inorganic matter can be stably organized into self-propagating combinations of molecules, which could further develop into life.
+
+I believe institutions work in a similar fashion.  Each individual has an infinite set of behaviors it can perform, but that set is constrained by the environment and the laws of physics.  By taking advantage of individuals' tendencies toward certain reactions in certain situations, an institution can compel them to behave in certain ways.  Since, the institution only exists as a combination of individuals, those individuals must have originally randomly happened upon a given hierarchical configuration that served to propagate itself, just as life must have originated as a particular combination of molecules randomly happening upon a certain configuration in the right circumstances.
+
+However, it all boils down to scale relations.  A system of organized units, like a molecule, must have a certain integrity to its structure to do work on another molecule.  It also must be significantly larger.  Life incorporates outside molecules into its own integral structure.  To do this, it must develop a system for constraining the behavior of those molecules.
+
+Many, many molecular structures are possible, but the only ones we know of that have recombined in a self-constraining, hierarchical fashion use carbon as the backbone.  I would propose that there is something about the basic-level institutions of humans (i.e. family and tribal) structure of humans that allows recombination and integration into larger hierarchies.  Obviously this has not been done the same way across societies, so there is room for variation upon a theme.
+
+So what forms of constraint are there on individuals' behaviors that the institution can use to do work?  An individual can be deprived of basic needs or social needs.  Both natural and sexual selection can be used to drive behavior.  However, a threat can be communicated more quickly than those dynamics play out genetically.  Thus communication systems can allow for the use of anxiety to drive behavior in an individual.  I propose that institutions use anxiety as a psychological mechanism, attached to certain behaviors through stories in the media, to drive behaviors.  This has been addressed, for instance, in women's studies and anthropology texts, but it has not been integrated into the study of communication.
+
+I don't have time for any more today.  Obviously there are huge gaps in certain explanations, but ask questions, and I will address them in my next post, and I will continue to add other material to flesh out support for my statements.

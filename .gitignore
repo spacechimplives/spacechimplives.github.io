@@ -29,4 +29,3 @@ dist-ssr
 *.sw?
 src/posts/generated-posts.ts
 public/post-images
-posts

@@ -1,0 +1,32 @@
+---
+title: "Social Physics and Informational Organisms III"
+summary: "So taking a step back from the technical details of statistics and information, I want to offer some further clarification and justification of the id"
+date: "2017-12-28"
+draft: true
+---
+
+So taking a step back from the technical details of statistics and information, I want to offer some further clarification and justification of the idea that information theory can be applied to sociology to provide a quantitative and rigorous connection between physics, economics, and sociology--or a thermodynamics of human behavior.
+
+As probably bears repeating--this is not in any way implying that people have no free will or that everything is pre-determined.  It is just a consequence of the fact that a) there are some things that are predictable about humans and b) when you get a large sample size, variation goes down.
+
+For instance it's predictable that a human will weigh somewhere between 60 and 600 pounds for most of their life.  They will also be somewhere between 2 and 9 feet tall.  Just by those physical averages alone, you can predict some things about humans.. like approximately how quickly they'll be able to travel long distances by foot, or how much energy it will take them to do so.
+
+We tend to think that technology complicates this beyond all understanding.  So maybe our height and weight can tell us how quickly people will move by foot, but we move by car mostly now, so those numbers are useless.  And that may be true.  But you could also say that about individual particles.  Their paths can be extremely complicated and unpredictable, but that doesn't matter to the law that PV=nRT.  We just take the average energy the path requires to get T.. so we're abstracting.  That abstraction allows us to do useful things.  And there is reason to believe that on a large scale, there are pretty regular patterns popping up that people don't realize.  For instance, Zipf's law and Moore's law are both examples of human things displaying remarkably consistent, quantifiable behavior that is far more consistent than you would expect if the butterfly effect were truly making human behavior too random to analyze in any meaningful way.  So we can guess that at least sometimes a signal pops through the noise.
+
+It's time for schools to stop teaching that as well, because as disappointing as it can be to feel that we aren't 2 unique 2 b put in a box, this science is already being used in at least a rudimentary form by corporations and governments all the time.  It's what big data is all about.  If we realize that just because we're statistically predictable, doesn't mean we're any less special, then we can try to use this science to design a new system that we have some control over.
+
+[Jeremy England has brought to the forefront the idea that life arranges itself to maximize production of entropy](https://www.quantamagazine.org/a-new-thermodynamics-theory-of-the-origin-of-life-20140122/).  The idea of a thermodynamic definition of life has been around for a long time.  In fact some of the earliest theorists who worked out the thermodynamics we know today believed this in some form.  For instance Boltzmann said "The general struggle for existence of animate beings is not a struggle for raw materials – these, for organisms, are air, water and soil, all abundantly available – nor for energy which exists in plenty in any body in the form of heat, but a *struggle for [negative] entropy*, which becomes available through the transition of energy from the *hot sun* to the *cold earth."*
+
+We also know that the connections between information theory and thermodynamics are becoming tighter and tighter.  Dr. Erik Verlinde [is talking about how gravity is actually an emergent phenomenon](https://www.youtube.com/watch?v=-OlEGq_g2FI&feature=youtu.be&t=6m43s) based on the quantum entanglement and uses information theory to analyze it.  Dr. Ron Garret of NASA's JPL and Google [is using information theory to explain and demystify](https://www.youtube.com/watch?v=dEaecUuEqfc) quantum dynamics.
+
+So we have clear, solid theoretical links developing between physics, information, entropy, and life.  Unfortunately these ideas are heavy on the theoretics and light on the evidence.  This is partially because a clear uniting model has not been developed.  There has also been very little progress on extending these ideas to the realm of social sciences, where it seems that "information" and "life" would most clearly collide, and where a quantitative model might be most useful, and most readily testable.
+
+Now, with the tools and hardware of big data, the statistical developments of quantum mechanics, and the data source of social media, with a little bit of a shift in thinking, we should be able to develop these models.
+
+To a small extent, there are examples popping up.  For instance [this article applying thermodynamics to game theory](https://www.technologyreview.com/s/608139/new-model-of-evolution-finally-reveals-how-cooperation-evolves/).  In fact, game theory is one of the most promising fronts to analyze this on.
+
+It is interesting--one of the most fundamental assumptions of the market model, is that information is perfectly distributed.  Of course, you can add correction terms into your market model to allow for discrepancies, but then you're adding to the complexity of the model.  And there is an implicit assumption that the basic conclusions of market economics still hold in the face of imperfect information. Some of these conclusions are: pricing based on supply and demand, comparative advantage, utility being maximized by each agent acting to maximize their own utility.  While it's likely that these can hold in many circumstances, it is necessary to create a game-based model that can handle the asymmetrical information devolving into either an un-generalizeable over-simplification or some crazy n-order differential equation.
+
+These models are being developed on at least some level as [bayesian games](https://en.wikipedia.org/wiki/Bayesian_game).   However, these games do not get tied to any theory of behavior outside of immediate responses, and aside from the occasional application of a hamiltonian, do not really get tied to physics.
+
+So the task of creating some sort of unified model that can be tested is undone.
