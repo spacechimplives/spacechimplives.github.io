@@ -33,7 +33,7 @@ export default function NavBar() {
             zIndex: 9,
           }} ><><HamburgerMenuIcon /> &nbsp; Menu</></Button>
         </SheetTrigger>
-        <SheetContent className="w-[400px] sm:w-[540px] bg-gradient-radial from-gray-950/50 via-gray-950/50 to-gray-950/50 border-whispyblue/10">
+        <SheetContent side="left" className="w-[400px] sm:w-[540px] bg-gradient-radial from-gray-950/50 via-gray-950/50 to-gray-950/50 border-whispyblue/10">
           <SheetHeader>
             <SheetTitle>Where to?</SheetTitle>
           </SheetHeader>

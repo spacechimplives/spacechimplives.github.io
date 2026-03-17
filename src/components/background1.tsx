@@ -41,9 +41,10 @@ const Background1 = () => {
       return
     }
 
-    // Track active flecks: { x, y, r, g, b, life }
-    const flecks: { x: number; y: number; r: number; g: number; b: number; life: number }[] = [];
-    const maxLife = 5; // Flecks last 5 frames
+    // Track active flecks: { x, y, r, g, b, life, maxLife }
+    const flecks: { x: number; y: number; r: number; g: number; b: number; life: number; maxLife: number }[] = [];
+    const randomLife = () => Math.floor(Math.random() * 6) + 3; // 3-8 frames
+    const randomLifeLong = () => Math.floor(Math.random() * 10) + 8; // 8-17 frames (red weighted longer)
 
     const setPixel = (imagedata: ImageData, x: number, y: number, r: number, g: number, b: number, a: number) => {
       let i = (y * imagedata.width + x) * 4;
@@ -53,26 +54,34 @@ const Background1 = () => {
       imagedata.data[i] = a;
     }
 
-    const getFleckColor = (): [number, number, number] | null => {
+    const getFleckColor = (): { color: [number, number, number]; maxLife: number } | null => {
       const fleck = Math.random();
-      if (fleck < 0.00005) {
+      // Common colors: yellow, green, blue
+      if (fleck < 0.000025) {
+        // Yellow (varies)
+        return { color: [Math.floor(Math.random() * 55 + 200), Math.floor(Math.random() * 55 + 200), Math.floor(Math.random() * 50 + 20)], maxLife: randomLife() };
+      } else if (fleck < 0.00005) {
         // Lime green (varies)
-        return [Math.floor(Math.random() * 40 + 30), Math.floor(Math.random() * 60 + 180), Math.floor(Math.random() * 50 + 30)];
+        return { color: [Math.floor(Math.random() * 40 + 30), Math.floor(Math.random() * 60 + 180), Math.floor(Math.random() * 50 + 30)], maxLife: randomLife() };
+      } else if (fleck < 0.000075) {
+        // Blue/Cyan (varies)
+        return { color: [Math.floor(Math.random() * 50 + 20), Math.floor(Math.random() * 60 + 180), Math.floor(Math.random() * 60 + 180)], maxLife: randomLife() };
       } else if (fleck < 0.0001) {
-        // Bright red (varies)
-        return [Math.floor(Math.random() * 55 + 200), Math.floor(Math.random() * 50 + 20), Math.floor(Math.random() * 50 + 20)];
-      } else if (fleck < 0.00015) {
-        // Purple (varies)
-        return [Math.floor(Math.random() * 60 + 120), Math.floor(Math.random() * 50 + 30), Math.floor(Math.random() * 60 + 180)];
-      } else if (fleck < 0.0002) {
-        // Cyan (varies)
-        return [Math.floor(Math.random() * 50 + 20), Math.floor(Math.random() * 60 + 180), Math.floor(Math.random() * 60 + 180)];
-      } else if (fleck < 0.00025) {
-        // Pink (varies)
-        return [Math.floor(Math.random() * 55 + 200), Math.floor(Math.random() * 80 + 80), Math.floor(Math.random() * 60 + 140)];
-      } else if (fleck < 0.0003) {
+        // Royal blue / deep blue (varies)
+        return { color: [Math.floor(Math.random() * 40 + 40), Math.floor(Math.random() * 50 + 80), Math.floor(Math.random() * 55 + 200)], maxLife: randomLife() };
+      // Rarer colors: red and orange most common, purple and pink rare
+      } else if (fleck < 0.0001125) {
+        // Bright red (varies) - weighted longer lifetime
+        return { color: [Math.floor(Math.random() * 55 + 200), Math.floor(Math.random() * 50 + 20), Math.floor(Math.random() * 50 + 20)], maxLife: randomLifeLong() };
+      } else if (fleck < 0.000125) {
         // Orange (varies)
-        return [Math.floor(Math.random() * 55 + 200), Math.floor(Math.random() * 70 + 100), Math.floor(Math.random() * 40 + 20)];
+        return { color: [Math.floor(Math.random() * 55 + 200), Math.floor(Math.random() * 70 + 100), Math.floor(Math.random() * 40 + 20)], maxLife: randomLife() };
+      } else if (fleck < 0.00013) {
+        // Purple (varies)
+        return { color: [Math.floor(Math.random() * 60 + 120), Math.floor(Math.random() * 50 + 30), Math.floor(Math.random() * 60 + 180)], maxLife: randomLife() };
+      } else if (fleck < 0.000135) {
+        // Pink (varies) - rare
+        return { color: [Math.floor(Math.random() * 55 + 200), Math.floor(Math.random() * 80 + 80), Math.floor(Math.random() * 60 + 140)], maxLife: randomLife() };
       }
       return null;
     }
@@ -83,10 +92,10 @@ const Background1 = () => {
       // Draw normal pixels and check for new flecks
       for (let y = 0; y < imagedata.height; y++) {
         for (let x = 0; x < imagedata.width; x++) {
-          const fleckColor = getFleckColor();
-          if (fleckColor) {
+          const fleckData = getFleckColor();
+          if (fleckData) {
             // Add new fleck
-            flecks.push({ x, y, r: fleckColor[0], g: fleckColor[1], b: fleckColor[2], life: maxLife });
+            flecks.push({ x, y, r: fleckData.color[0], g: fleckData.color[1], b: fleckData.color[2], life: fleckData.maxLife, maxLife: fleckData.maxLife });
           }
           // Normal color (with alpha for background to show through)
           setPixel(imagedata, x, y, Math.floor((Math.random() * 3) + 32), Math.floor((Math.random() * 10) + 55), Math.floor((Math.random() * 5) + 52), 250);
@@ -96,7 +105,7 @@ const Background1 = () => {
       // Draw active flecks with fading opacity
       for (let i = flecks.length - 1; i >= 0; i--) {
         const f = flecks[i];
-        const opacity = Math.floor((f.life / maxLife) * 255);
+        const opacity = Math.floor((f.life / f.maxLife) * 255);
         // Blend fleck color with background based on opacity
         const bgIdx = (f.y * imagedata.width + f.x) * 4;
         const bgR = imagedata.data[bgIdx];
@@ -127,8 +136,8 @@ const Background1 = () => {
 
       timeoutRef.current = setTimeout(() => {
         randomate();
-        // Slow down gradually
-        intervalRef.current = intervalRef.current * 1.03;
+        // Slow down gradually (reaches ~3s and stops after ~7 seconds)
+        intervalRef.current = intervalRef.current * 1.5;
         scheduleNext();
       }, intervalRef.current);
     };
@@ -203,7 +212,7 @@ const Background1 = () => {
           opacity: 1,
         }}
       />
-      <canvas ref={canvasRef} id="canvas" width="800" height="3" style={{
+      <canvas ref={canvasRef} id="canvas" width="800" height="9" style={{
         position: 'relative',
         width: '100%',
         height: '100%',
