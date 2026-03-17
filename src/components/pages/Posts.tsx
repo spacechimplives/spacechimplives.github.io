@@ -38,8 +38,8 @@ export default function PostsPage() {
                 <img src={p.meta.image} alt="" className="w-32 h-20 object-cover rounded" />
               </Link>
             )}
-            <div>
-              <h2 className="text-xl font-semibold">
+            <div className="min-w-0">
+              <h2 className="text-xl font-semibold break-words">
                 <Link to={`/blog/${p.slug}`}>{p.meta.title}</Link>
               </h2>
               <p className="text-xs text-foreground/50 mb-2">
@@ -49,7 +49,7 @@ export default function PostsPage() {
                   day: 'numeric'
                 })}
               </p>
-              <p className="text-base text-foreground/80">
+              <p className="text-base text-foreground/80 break-words">
                 {(p.meta.summary || p.content?.replace(/[#*_\[\]()]/g, '').slice(0, 500))}...
               </p>
             </div>
