@@ -1,0 +1,5 @@
+- [ ] make scroll position reset when switching to article (store scroll pos per article)?
+- [ ] make flecks increase in proportion if lots of activity
+- [ ] add merkle navigator thing
+  - [ ] embedding-based tags? 
+  - [ ] clustering?

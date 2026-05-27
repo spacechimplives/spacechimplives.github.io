@@ -6,12 +6,12 @@ import rehypeMermaid from 'rehype-mermaid'
 import rehypeRaw from 'rehype-raw'
 import rehypeKatex from 'rehype-katex'
 
-
 import rehypeHighlight from "rehype-highlight";
 import "highlight.js/styles/github-dark.css";
 import "katex/dist/katex.min.css";
 import hljs from "highlight.js/lib/core";
 import lean from "highlightjs-lean";
+import Giscus from '../components/Giscus';
 
 hljs.registerLanguage("lean", lean);
 
@@ -54,6 +54,7 @@ export default function PostPage({ title, children }: { title: string; children:
       <div className="mx-auto w-full lg:w-4/5 xl:w-3/4 max-w-4xl grid grid-cols-1">
         <h1 className="text-3xl font-bold mb-4">{title}</h1>
         {children}
+        <Giscus />
       </div>
     </div>
   );
