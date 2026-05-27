@@ -1,7 +1,7 @@
 ---
 title: "Machine Code Drove Human Evolution"
 summary: "What distinguishes human cognition from the animal kingdom is distributed computations. Our animal biology conforms to allow those computations, and these have organized self-propagating patterns which I call institutions."
-date: "2024-01-10"
+date: "2026-05-26"
 draft: false
 ---
 

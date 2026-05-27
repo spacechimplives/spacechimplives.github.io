@@ -1,7 +1,7 @@
 ---
 title: "Thermodynamically Optimal Governance"
 summary: "Society can be modeled as engaging in active inference as defined in the free energy principle, which presents an optimization problem for governance systems."
-date: "2024-01-15"
+date: "2026-05-04"
 draft: false
 ---
 
