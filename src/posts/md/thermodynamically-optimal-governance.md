@@ -11,7 +11,7 @@ The short story: Society can be modeled as engaging in active inference as defin
 
 For the sake of communication, I'm going to jump in from that starting point. However below that will be a fleshed-out argument for why we can model society as this particular kind of optimization problem.
 
-#### The thermodynamic context of governance
+### The thermodynamic context of governance
 
 Society has not been as thoroughly explored from the FEP lens as other forms of life & organization. We have a much more established thermodynamic understanding of atoms and cells. In a cell, atoms are networked together in specific configurations, and the cell can manipulate their position by oxidizing or reducing them or their environment, by configuring them in certain ways that can result in hydrogen bonds, by changing the composition of the cytoplasm, etc.
 
@@ -43,7 +43,7 @@ This appears at first glance as a centralized process where the inner layers gov
 
 If we are trying to understand how to optimize such a process, so far all we can say is that we can use something like signal processing or various probabilistic inference methods to anticipate the signal that arrives via sensation.
 
-#### Distributed Systems
+### Distributed Systems
 
 But sensation itself is organized via networks. We receive stimulus on certain neurons and then aggregate over those neurons using other neurons. We then might think and integrate with other senses, or even talk to other people to determine how to update our internal state in response to a stimulus. Not only that, but our neurons might themselves react to the stimulus in a way that affects other neurons around them, even those ostensibly in the same "layer"… in other words the information/control flow is not strictly hierarchical. It can be lateral as well. It can even flow downstream as well. We know that upstream neurons can also affect the sensory neurons' behavior.
 
@@ -57,7 +57,7 @@ And those aggregation processes are themselves subject to the optimization probl
 
 All of this leads to the idea that if we want to optimize governance, we can treat it as a distributed learning problem. Information comes from many sources, and a hierarchical approach will fail to compete with one which can adjust to more dynamic environments. Decentralized systems have popularized and developed consensus mechanisms from distributed systems research, which end up looking suspiciously like governance mechanisms because ultimately that's what they are. This is not a coincidence. They're solving the same problem which is the lateral aspect of inference. In other words, how agents at the same layer align on state and collectively decide upon and trigger actions.
 
-#### Optimization
+### Optimization
 
 So, we've made a case that society can be viewed as a collection of distributed systems which engage in processes designed to minimize the amount of free energy exterior to them as compared to their interior. But then what are the parameters for optimizing this. Distributed systems have a notorious set of trade-offs. The CAP theorem describes that there's an inherent set of trade-offs between Consistency, Availability, and Partition Tolerance. In the realm of human governance these would correspond roughly to rule of law, responsiveness to public needs / speed of execution, and local rights. We can see that many of the political fault-lines that occur are about which trade-offs should be made.
 
@@ -75,7 +75,7 @@ This is in contrast to AI governance, which even if it could properly sustain it
 
 So to answer the question of "what does optimal governance look like?": the answer is it depends intimately on the conditions of the system under governance, however the tools of information theory, distributed systems, signal processing and other fields would yield drastic gains upon what we currently have. This is a call for the research development of of a formal model of human processes and governance as well as its integration into our political and corporate structures. Given the degree to which national governance now impacts individuals and institutions on a daily basis in terms of both time and cost, this would be one of the single most beneficial ways that the federal government could spend money.
 
-#### Why is governance describable by the free energy principle?
+### Why is governance describable by the free energy principle?
 
 As promised in the first paragraph, this is an argument for why we can say that governance is described by the free energy principle. First, we need to define what we mean by governance, and what optimizing it might look like. At it's core, governance is the creation, maintenance, and execution of policy, or code. However these policies are created, maintained and by the same agents who the policies apply to.
 
