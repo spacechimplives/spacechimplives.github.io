@@ -21,17 +21,17 @@ $$!e^x = \displaystyle\sum_{m=0}^{\infty} \frac{(x)^m}{m!}$$
 
 so we have 
 
-$$!\zeta(s) = \displaystyle\sum_{n=1}^{\infty} \displaystyle\sum_{m=0}^{\infty} \frac{(-sln(n))^{m}}{m!}  = \displaystyle\sum_{n=1}^{\infty} \displaystyle\sum_{m=0}^{\infty} \frac{{{(-\sigma - it)}^m(ln(n))^{m}}}{m!}$$
+$$!\zeta(s) = \displaystyle\sum_{n=1}^{\infty} \displaystyle\sum_{m=0}^{\infty} \frac{(-sln(n))^{m}}{m!}  = \displaystyle\sum_{n=1}^{\infty} \displaystyle\sum_{m=0}^{\infty} \frac{(-\sigma - it)^m (ln(n))^{m}}{m!}$$
 
 So when you expand out the terms of $$(\sigma + it)^n$$ using the binomial coefficients, that gives you 
 
-$$!\displaystyle\sum_{n=1}^{\infty} \displaystyle\sum_{m=0}^{\infty} \displaystyle\sum_{l=0}^{m} \frac{m!(-\sigma)^{m-l}(-it)^l}{l!(m-l)!}\frac{{{(ln(n))^{m}}}}{m!}$$
+$$!\displaystyle\sum_{n=1}^{\infty} \displaystyle\sum_{m=0}^{\infty} \displaystyle\sum_{l=0}^{m} \frac{m!(-\sigma)^{m-l}(-it)^l}{l!(m-l)!}\frac{(ln(n))^{m}}}}{m!}$$
 
 $$! = \displaystyle\sum_{n=1}^{\infty} \displaystyle\sum_{m=0}^{\infty} \displaystyle\sum_{l=0}^{m} \frac{(-\sigma)^{m-l}(-it)^l}{l!(m-l)!}{{(ln(n))^{m}}}$$
 
-$$! =1 + 1 \frac{(-\sigma)ln(n)^1}{1} + \frac{(-it)ln(n)^1}{1} + \frac{(-\sigma)^{2}(ln(n)^2)}{2} + \frac{2(-\sigma)(-it)(ln(n)^2)}{2} + \frac{(-it)^{2}(ln(n)^2)}{2}    + ... +\frac{{{(-\sigma)^{m-l}(-it)^l(ln(n))^{m}}}}{l!(m-l)!}$$
+$$! =1 + 1 \frac{(-\sigma)ln(n)^1}{1} + \frac{(-it)ln(n)^1}{1} + \frac{(-\sigma)^{2}(ln(n)^2)}{2} + \frac{2(-\sigma)(-it)(ln(n)^2)}{2} + \frac{(-it)^{2}(ln(n)^2)}{2}    + ... +\frac{(-\sigma)^{m-l}(-it)^l(ln(n))^{m}}}}{l!(m-l)!}$$
 
-Expanding this out, a pattern starts to appear.. The first term for every m ends up being $$\frac{{{(-\sigma)^{m}(ln(n))^{m}}}}{m!}$$ and the last term is  $$\frac{{{(-it)^l(ln(n))^{m}}}}{l!}$$ when l=m, meaning in every iteration of m you have these terms.  We can thus take them out as exponentials.  However, since every exponential series starts with 1 and there is only 1 1 at the beginning of the series, we also must subtract 1 from the parent series in order to take both the first and last terms out.
+Expanding this out, a pattern starts to appear.. The first term for every m ends up being $$\frac{(-\sigma)^{m}(ln(n))^{m}}}}{m!}$$ and the last term is  $$\frac{(-it)^l(ln(n))^{m}}}}{l!}$$ when l=m, meaning in every iteration of m you have these terms.  We can thus take them out as exponentials.  However, since every exponential series starts with 1 and there is only 1 1 at the beginning of the series, we also must subtract 1 from the parent series in order to take both the first and last terms out.
 
 $$!\displaystyle\sum_{n=1}^{\infty} e^{-{\sigma}ln(n)} + e^{-itln(n)} - 1 + \displaystyle\sum_{m=2}^{\infty} \displaystyle\sum_{l=1}^{m-1} \frac{(ln(n))^{m}(-\sigma)^{m-l}(-it)^l}{l!(m-l)!}$$
 
