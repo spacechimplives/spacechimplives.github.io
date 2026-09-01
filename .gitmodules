@@ -1,0 +1,3 @@
+[submodule "dag-navvit"]
+	path = lib/dag-navvit
+	url = https://github.com/syc-tech/dag-navvit
